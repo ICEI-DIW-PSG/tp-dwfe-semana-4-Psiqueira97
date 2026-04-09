@@ -9,17 +9,19 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Pedro Siqueira Godinho
+- Matricula: 907982
+- Proposta de projeto escolhida: Mescla entre 4. Coleção de Itens e 5. Temas e Conteúdos Associados
+- Breve descrição sobre seu projeto: Site a respeito das motos da kawasaki rangangan bololo
 
+![alt text](wireFrame.png)
 
 ## Print do(s) wireframe(s) criado
 > Sugestão, use o Excalidraw para isso. Utilize esse [template básico](https://excalidraw.com/#json=LU-8hwcQEwzk11FwO8Opo,qPU9K6cNUEzlXzwOuKMIlQ) para você começar.
 
 
 <<  COLOQUE A IMAGEM AQUI >>
+
 
 
 ## Print da home-page criada

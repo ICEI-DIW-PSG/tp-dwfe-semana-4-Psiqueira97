@@ -1,3 +1,114 @@
+/* Reset básico para tirar as margens chatas que o navegador coloca */
+* {
+    margin: 0;
+    padding: 0;
+    box-box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
 body {
-    background-color: aquamarine;
+    background-color: #f4f4f4; /* Fundo claro para destacar os elementos */
+    color: #333;
+}
+
+/* HEADER - Seguindo o estilo preto do seu wireframe */
+.main-header {
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    position: sticky; /* Requisito de "position" */
+    top: 0;
+    z-index: 1000;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* FORMULÁRIO DE BUSCA */
+.search-form {
+    display: flex;
+    gap: 5px;
+}
+
+.search-form input {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+/* SEÇÃO HERO (Let the Good Times Roll) */
+.hero {
+    padding: 60px 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.hero p {
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+/* GRADE DE MOTOS - A parte preta arredondada do seu desenho */
+.moto-grid {
+    background-color: #000;
+    border-radius: 40px;
+    padding: 40px;
+    display: grid; /* Usando grid para alinhar as motos */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 20px 5%;
+}
+
+.moto-card {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.moto-card:hover {
+    transform: scale(1.05); /* Um efeitinho pro seu projeto ganhar nota 10 */
+}
+
+.moto-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.moto-card h2 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* RODAPÉ */
+.main-footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #111;
+    color: #777;
+    margin-top: 50px;
 }
